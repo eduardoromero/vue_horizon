@@ -5,7 +5,7 @@ Just a demo of VueJS + Horizon.js
 A file sharing web on JavaScript. All shares are persisted thru RethinkDB via Horizon. Which allows us to add more 
 functionality later on.
 
-As it is is just one file [upload.html](../blob/master/dist/upload.html). I will refactor it to create a component and 
+As it is is just one file [upload.html](../master/dist/upload.html). I will refactor it to create a component and 
 split the code on several files.
 
 ## TODO

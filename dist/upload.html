@@ -136,7 +136,7 @@
     });
 
     var shares_hz = new horizon('shares');
-    shares_hz.findAll({removed: false}).order('id').watch().subscribe(
+    shares_hz.findAll({removed: false, origin: hostname }).order('id').watch().subscribe(
             function (shares) {
                 vue_app.shares = shares;
 
